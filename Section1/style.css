@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media screen and (min-width: 1280px){
+    .first-section {
+        width: 100%;
+    }
+    
+    .main {
+        width: 112px;
+        height: 66px;
+        margin-left: 121px;
+        margin-top: 21px;
+    }
+
+    .container {
+display: flex;
+    }
+
+ .globe {
+    margin-top: 97px;
+    margin-left: 121px;
+    display: flex;
+ }   
+ 
+ .globe-pic {
+    width: 22px;
+    height: 21px;
+ }
+
+ .globe-txt {
+    margin-left: 8px;
+    font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 20px;
+line-height: 115%;
+ }
+
+ .time {
+    margin-top: 97px;
+    margin-left: 35px;
+    display: flex;
+ }
+
+ .clock-pic {
+    width: 22px;
+    height: 22px;
+ }
+ .clock-txt {
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 20px;
+line-height: 115%;
+ }
+
+ .calendar {
+    margin-top: 97px;
+    margin-left: 35px;
+    display: flex;
+ }
+
+ .calendar-pic {
+    width: 20px;
+    height: 22px;
+ }
+
+ .calendar-txt {
+    margin-left: 13px;
+    font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 20px;
+line-height: 115%;
+ }
+
+ .head1 {
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+     line-height: 101.38%; 
+    width: 628px;
+    height: 190px;
+    margin-left: 122px;
+    margin-top: 29px;
+    color: #000000;
+
+ }
+
+ .text1 {
+    width: 414px;
+    height: 62px;
+    margin-left: 122px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+ }
+
+    .man {
+        position: absolute;
+        left: 890px;
+        top: 223px;
+        width: 304px;
+        height: 356px;
+    }
+
+    .ellipse {
+        margin-left: 921px;
+        margin-top: 64px;
+        width: 274px;
+        height: 41px;
+    }
+
+    .articl {
+        width: 483.63px;
+        height: 200px;
+        background-color: #1E4681;
+        border-radius: 5px;
+        margin-left: 409.39px;
+        margin-top: 67.62px;
+    }
+
+    .text2 { 
+        padding-top: 19.26px;
+        padding-left: 26.03px;
+        font-family: 'Roboto Slab', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 130%;
+        color: #FFFFFF;
+        width: 460px;
+    }
+
+    .author {
+        font-family: 'Roboto', sans-serif;
+        padding-top: 22.12px;
+        padding-right: 18.52px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 130%;
+        text-align: right;
+        color: #FFFFFF;
+    }
+
+
+}
+@media (min-width:992px) and (max-width:1279px){
+    .first-section {
+        width: 100%;
+    }
+    
+    .main {
+        width: 64.87px;
+        height: 38.23px;
+        margin-left: 70.08px;
+        margin-top: 22px;
+    }
+
+    .container {
+        display: flex;
+    }
+
+ .globe {
+    margin-top: 56.18px;
+    margin-left: 70.08px;
+    display: flex;
+ }   
+ 
+ .globe-pic {
+    width: 12.74px;
+    height: 12.16px;
+ }
+
+ .globe-txt {
+    margin-left: 4.63px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 115%;
+ }
+
+ .time {
+    margin-top: 55.6px;
+    margin-left: 14.48px;
+    display: flex;
+ }
+
+ .clock-pic {
+    width: 12.74px;
+    height: 12.74px;
+ }
+ .clock-txt {
+    margin-left: 5.79px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 115%;
+ }
+
+ .calendar {
+    margin-top: 55.6px;
+    margin-left: 14.48px;
+    display: flex;
+ }
+
+ .calendar-pic {
+    width: 11.58px;
+    height: 12.74px;
+ }
+
+ .calendar-txt {
+    margin-left: 7.53px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 115%;
+ }
+
+ .head1 {
+    width: 363.72px;
+height: 110.04px;
+margin-left: 70.66px;
+margin-top: 14.5px;
+font-family: 'Roboto Slab', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 46px;
+line-height: 101.38%;
+color: #000000;
+ }
+
+ .text1 {
+    width: 264px;
+    height: 36px;
+    margin-left: 71px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+ }
+
+    .man {
+        position: absolute;
+        width: 176.07px;
+        height: 206.18px;
+        left: 515.46px;
+        top: 138.99px;
+    }
+
+    .ellipse {
+        margin-left: 533.41px;
+        margin-top: 36px;
+        width: 158.69px;
+        height: 23.75px;
+    }
+
+    .articl {
+        width: 280.11px;
+        height: 115.83px;
+        background-color: #1E4681;
+        border-radius: 2.89583px;
+        margin-left: 237.1px;
+        margin-top: 39.17px;
+    }
+
+    .text2 { 
+        padding-top: 11.15px;
+        padding-left: 15.08px;
+        font-family: 'Roboto Slab', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 130%;
+        color: #FFFFFF;
+        width: 260px;
+    }
+
+    .author {
+        font-family: 'Roboto', sans-serif;
+        padding-top: 8.6px;
+        padding-right: 9.42px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 130%;
+        text-align: right;
+        color: #FFFFFF;
+    }
+}
+@media (max-width:991px) {
+    .first-section {
+        width: 100%;
+    }
+    
+    .main {
+        width: 52.19px;
+        height: 30.75px;
+        margin-left: 35px;
+        margin-top: 36px;
+    }
+
+    .container {
+        display: flex;
+    }
+
+ .globe {
+    margin-top: 45.2px;
+    margin-left: 35px;
+    display: flex;
+ }   
+ 
+ .globe-pic {
+    width: 10.25px;
+    height: 9.79px;
+ }
+
+ .globe-txt {
+    margin-left: 3.73px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 115%;
+ }
+
+ .time {
+    margin-top: 44.6px;
+    margin-left: 11.65px;
+    display: flex;
+ }
+
+ .clock-pic {
+    width: 10.25px;
+    height: 10.25px;
+ }
+ .clock-txt {
+    margin-left: 4.66px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 115%;
+ }
+
+ .calendar {
+    margin-top: 44.73px;
+    margin-left: 8.86px;
+    display: flex;
+ }
+
+ .calendar-pic {
+    width: 9.32px;
+    height: 10.25px;
+ }
+
+ .calendar-txt {
+    margin-left: 6.06px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 115%;
+ }
+
+ .head1 {
+    width: 292.63px;
+height: 88.53px;
+margin-left: 35.47px;
+margin-top: 12.58px;
+font-family: 'Roboto Slab', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 37px;
+line-height: 101.38%;
+color: #000000;
+ }
+
+ .text1 {
+    width: 212.4px;
+    height: 28.96px;
+    margin-left: 35.74px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 150%;
+ }
+
+    .man {
+        position: absolute;
+        width: 141.66px;
+        height: 165.89px;
+        left: 201px;
+        top: 254px;
+    }
+
+    .ellipse {
+        margin-left: 215px;
+        margin-top: 150px;
+        width: 127.68px;
+        height: 19.1px;
+    }
+
+    .articl {
+        width: 225.36px;
+        height: 93.19px;
+        background-color: #1E4681;
+        border-radius: 2.32986px;
+        margin-left: 37.98px;
+        margin-top: 38.64px;
+    }
+
+    .text2 { 
+        padding-top: 8.97px;
+        padding-left: 12.13px;
+        font-family: 'Roboto Slab', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 130%;
+        color: #FFFFFF;
+        width: 210px;
+    }
+
+    .author {
+        font-family: 'Roboto', sans-serif;
+        padding-top: 6.92px;
+        padding-right: 7.58px;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 130%;
+        text-align: right;
+        color: #FFFFFF;
+    } 
+
+}
+
+
+
+
